@@ -14,6 +14,7 @@ The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets
 -Label - Unacceptable, Acceptable, Good, Very Good
 ### How To Run
 >python3 ID3.py car ig
+
 To change the purity, replace ig with any of the following:
 
 Information Gain: ig
@@ -45,6 +46,7 @@ Poutcome - unknown, other, failure, success
 Label - yes, no
 ####How To Run
 >python3 ID3.py bank ig
+
 As above, to change the purity, replace ig with any of the following:
 
 Information Gain: ig
