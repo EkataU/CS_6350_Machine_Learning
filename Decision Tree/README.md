@@ -45,7 +45,7 @@ Previous - (numeric)
 Poutcome - unknown, other, failure, success
 Label - yes, no
 #### How To Run
-`python3 ID3.py bank ig'
+`python3 ID3.py bank ig`
 
 As above, to change the purity, replace ig with any of the following:
 
