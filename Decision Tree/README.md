@@ -24,7 +24,7 @@ If you would like to add a depth constraint to the tree, add the depth to the en
 Ex: `python3 ID3.py car ig 2`
 
 ## Bank
-The dataset is from UCI repository. This dataset contains 16 bank attributes for a given customer, including both numerical and categorical ones. The numerical attributes were altered to be equal to or under the median value, or above the median. Any unknown attributes were altered to be the majority attribute. The label is whether the client subscribed to a term deposit. There are 5000 training examples and 5000 test examples.
+The dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). This dataset contains 16 bank attributes for a given customer, including both numerical and categorical ones. The numerical attributes were altered to be equal to or under the median value, or above the median. Any unknown attributes were altered to be the majority attribute. The label is whether the client subscribed to a term deposit. There are 5000 training examples and 5000 test examples.
 
 #### Attributes and Labels
 - Age - (numeric)
