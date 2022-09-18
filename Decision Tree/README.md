@@ -1,4 +1,4 @@
-## Decision Tree
+# Decision Tree
 This is an ID3 Decision Tree learning algorithm for two evaluation tasks. There are three types of purity used: Entropy, Majority Error, and Gini Index.
 
 ## Car
