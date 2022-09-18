@@ -6,7 +6,8 @@ The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets
 
 **Data Set Characteristics**:  Multivariate
 
-**Number of Instances**:1728: 
+**Number of Instances**:1728
+
 **Out of 1728: **
 Test Instances: 728 Train Instances: 1000
 
