@@ -5,15 +5,15 @@ This is an ID3 Decision Tree learning algorithm for two evaluation tasks. There 
 The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/car+evaluation). In this task, we have 6 car attributes, and the label is the evaluation of the car. There are 1000 training examples and 728 test examples.
 
 #### Attributes and Labels:
-Buying - Very High, High, Medium, Low
-Maintenance - Very High, High, Medium, Low
-Number of Doors - 2, 3, 4, 5+
-Persons - 2, 4, More than 4
-Lug Boot - Big, Medium, Small
-Safety - High, Medium, Small
-Label - Unacceptable, Acceptable, Good, Very Good
-How To Run
-python3 ID3.py car ig
+-Buying - Very High, High, Medium, Low
+-Maintenance - Very High, High, Medium, Low
+-Number of Doors - 2, 3, 4, 5+
+-Persons - 2, 4, More than 4
+-Lug Boot - Big, Medium, Small
+-Safety - High, Medium, Small
+-Label - Unacceptable, Acceptable, Good, Very Good
+### How To Run
+>python3 ID3.py car ig
 To change the purity, replace ig with any of the following:
 
 Information Gain: ig
@@ -43,8 +43,8 @@ Pdays - (numeric) -1 means client was not previously contacted
 Previous - (numeric)
 Poutcome - unknown, other, failure, success
 Label - yes, no
-How To Run
-python3 ID3.py bank ig
+####How To Run
+>python3 ID3.py bank ig
 As above, to change the purity, replace ig with any of the following:
 
 Information Gain: ig
