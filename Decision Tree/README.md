@@ -5,13 +5,13 @@ This is an ID3 Decision Tree learning algorithm for two evaluation tasks. There 
 The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/car+evaluation). In this task, we have 6 car attributes, and the label is the evaluation of the car. There are 1000 training examples and 728 test examples.
 
 #### Attributes and Labels:
--Buying - Very High, High, Medium, Low
--Maintenance - Very High, High, Medium, Low
--Number of Doors - 2, 3, 4, 5+
--Persons - 2, 4, More than 4
--Lug Boot - Big, Medium, Small
--Safety - High, Medium, Small
--Label - Unacceptable, Acceptable, Good, Very Good
+- Buying - Very High, High, Medium, Low
+- Maintenance - Very High, High, Medium, Low
+- Number of Doors - 2, 3, 4, 5+
+- Persons - 2, 4, More than 4
+- Lug Boot - Big, Medium, Small
+- Safety - High, Medium, Small
+- Label - Unacceptable, Acceptable, Good, Very Good
 ### How To Run
 `python3 ID3.py car ig`
 
@@ -27,23 +27,23 @@ Ex: `python3 ID3.py car ig 2`
 The dataset is from UCI repository. This dataset contains 16 bank attributes for a given customer, including both numerical and categorical ones. The numerical attributes were altered to be equal to or under the median value, or above the median. Any unknown attributes were altered to be the majority attribute. The label is whether the client subscribed to a term deposit. There are 5000 training examples and 5000 test examples.
 
 #### Attributes and Labels
-Age - (numeric)
-Job - admin., unknown, unemployed, management, housemaid, entrepreneur, student, blue-collar, self-employed, retired, technician, services
-Marital - married, divorced, single
-Education - unknown, secondary, primary, tertiary
-Default - yes, no
-Balance - (numeric)
-Housing - yes, no
-Loan - yes, no
-Contact - unknown, telephone, cellular
-Day - (numeric)
-Month - jan, feb, mar, ..., nov, dec
-Duration - (numeric)
-Campaign - (numeric)
-Pdays - (numeric) -1 means client was not previously contacted
-Previous - (numeric)
-Poutcome - unknown, other, failure, success
-Label - yes, no
+- Age - (numeric)
+- Job - admin., unknown, unemployed, management, housemaid, entrepreneur, student, blue-collar, self-employed, retired, technician, services
+- Marital - married, divorced, single
+- Education - unknown, secondary, primary, tertiary
+- Default - yes, no
+- Balance - (numeric)
+- Housing - yes, no
+- Loan - yes, no
+- Contact - unknown, telephone, cellular
+- Day - (numeric)
+- Month - jan, feb, mar, ..., nov, dec
+- Duration - (numeric)
+- Campaign - (numeric)
+- Pdays - (numeric) -1 means client was not previously contacted
+- Previous - (numeric)
+- Poutcome - unknown, other, failure, success
+- Label - yes, no
 #### How To Run
 `python3 ID3.py bank ig`
 
