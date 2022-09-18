@@ -8,7 +8,7 @@ The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets
 
 **Number of Instances**:1728
 
-**Out of 1728: **
+**Out of 1728:**
 Test Instances: 728 Train Instances: 1000
 
 
@@ -42,7 +42,7 @@ The dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Ban
 **Data Set Characteristics: ** Multivariate
 
 **Number of Instances:** 10,000
-**Out of 10,000: **
+**Out of 10,000:**
 Test Instances: 5,000 Train Instances: 5,000
 
 #### Attributes and Labels
