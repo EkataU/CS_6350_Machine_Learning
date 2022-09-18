@@ -39,9 +39,10 @@ The dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Ban
 - Any missing attributes set to be the majority attribute. 
 - The label is whether the client subscribed to a term deposit. 
 
-**Data Set Characteristics: ** Multivariate
+**Data Set Characteristics:** Multivariate
 
 **Number of Instances:** 10,000
+
 **Out of 10,000:**
 Test Instances: 5,000 Train Instances: 5,000
 
