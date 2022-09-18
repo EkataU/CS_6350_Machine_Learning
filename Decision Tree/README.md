@@ -2,7 +2,7 @@
 This is an ID3 Decision Tree learning algorithm for two evaluation tasks. There are three types of purity used: Entropy, Majority Error, and Gini Index.
 
 ## Car
-The dataset is from the [UCI repository]. In this task, we have 6 car attributes, and the label is the evaluation of the car. There are 1000 training examples and 728 test examples.
+The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/car+evaluation). In this task, we have 6 car attributes, and the label is the evaluation of the car. There are 1000 training examples and 728 test examples.
 
 Attributes and Labels
 Buying - Very High, High, Medium, Low
