@@ -13,8 +13,8 @@ The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets
 -Safety - High, Medium, Small
 -Label - Unacceptable, Acceptable, Good, Very Good
 ### How To Run
->python3 ID3.py car ig
-
+>`python3 ID3.py car ig
+`
 To change the purity, replace ig with any of the following:
 
 Information Gain: ig
