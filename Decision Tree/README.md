@@ -21,7 +21,7 @@ Information Gain: ig
 Majority Error: me
 Gini Index: gi
 If you would like to add a depth constraint to the tree, add the depth to the end of the line.
-Ex: >`python3 ID3.py car ig'
+Ex: `python3 ID3.py car ig'
 
 ## Bank
 The dataset is from UCI repository. This dataset contains 16 bank attributes for a given customer, including both numerical and categorical ones. The numerical attributes were altered to be equal to or under the median value, or above the median. Any unknown attributes were altered to be the majority attribute. The label is whether the client subscribed to a term deposit. There are 5000 training examples and 5000 test examples.
@@ -44,8 +44,8 @@ Pdays - (numeric) -1 means client was not previously contacted
 Previous - (numeric)
 Poutcome - unknown, other, failure, success
 Label - yes, no
-####How To Run
->`python3 ID3.py bank ig'
+#### How To Run
+`python3 ID3.py bank ig'
 
 As above, to change the purity, replace ig with any of the following:
 
