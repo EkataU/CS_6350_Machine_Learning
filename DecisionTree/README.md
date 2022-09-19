@@ -22,15 +22,10 @@ Test Instances: 728 Train Instances: 1000
 - Safety - High, Medium, Small
 - Label - Unacceptable, Acceptable, Good, Very Good
 ### How To Run
-`python3 ID3.py car ig`
+`python3 ***********.py `
 
-To change the purity, replace ig with any of the following:
 
-Information Gain: ig
-Majority Error: me
-Gini Index: gi
-If you would like to add a depth constraint to the tree, add the depth to the end of the line.
-Ex: `python3 ID3.py car ig 2`
+
 
 ## Bank
 The dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). This dataset contains 16 bank attributes for a given customer, including both numerical and categorical ones. 
@@ -67,13 +62,7 @@ Test Instances: 5,000 Train Instances: 5,000
 #### How To Run
 `python3 ID3.py bank ig`
 
-As above, to change the purity, replace ig with any of the following:
 
-Information Gain: ig
-Majority Error: me
-Gini Index: gi
-If you would like to add a depth constraint to the tree, add the depth to the end of the line.
-Ex: `python3 ID3.py car ig 2`
 
 Footer
 © 2022 GitHub, Inc.
