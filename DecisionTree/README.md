@@ -60,7 +60,7 @@ Test Instances: 5,000 Train Instances: 5,000
 - Poutcome - unknown, other, failure, success
 - Label - yes, no
 #### How To Run
-`python3 ID3.py bank ig`
+`python3 *************`
 
 
 
