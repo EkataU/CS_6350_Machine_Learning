@@ -1,5 +1,6 @@
 # Decision Tree
-This is an ID3 Decision Tree learning algorithm for two evaluation tasks. There are three types of purity used: Entropy, Majority Error, and Gini Index.
+This is an ID3 Decision Tree learning algorithm for two evaluation tasks. There are three features used: 
+Entropy (ig), Majority Error(me), and Gini Index (GI).
 
 ## Car
 The dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/car+evaluation). 
@@ -22,7 +23,9 @@ Test Instances: 728 Train Instances: 1000
 - Safety - High, Medium, Small
 - Label - Unacceptable, Acceptable, Good, Very Good
 ### How To Run
-`python3 ***********.py `
+`python3 Make_DT_ID3.py car ig 5 `
+`python3 Make_DT_ID3.py car me 5 `
+`python3 Make_DT_ID3.py car gi 5 `
 
 
 
@@ -60,8 +63,9 @@ Test Instances: 5,000 Train Instances: 5,000
 - Poutcome - unknown, other, failure, success
 - Label - yes, no
 #### How To Run
-`python3 *************`
-
+`python3 Make_DT_ID3.py bank ig 5 `
+`python3 Make_DT_ID3.py bank me 5 `
+`python3 Make_DT_ID3.py bank gi 5 `
 
 
 Footer
