@@ -26,12 +26,13 @@ included in PDF
 Uses following equation to solve optimal weight:
 
 <img src="https://github.com/EkataU/CS_6350_Machine_Learning/blob/main/Linear%20Regression/optimal.png" height="75">  
+
 ### How To Run
 ```
 python3 LR.py optimal
 ```
 
-###Results
+### Results
 included in PDF
 ## Data
 The dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Concrete+Slump+Test). This dataset contains 7 concrete features and is used to calculate the SLUMP of the concrete. There are 53 training examples and 50 test examples.
