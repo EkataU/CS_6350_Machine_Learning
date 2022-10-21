@@ -1,11 +1,11 @@
-echo BGD
+echo boosing
 
-python3 LR.py bgd
+python3 EL.py ada
 
-echo SGD
+echo bagging
 
-python3 LR.py sgd
+python3 EL.py bag
 
-echo Analytical
+echo random forest
 
-python3 LR.py optimal
+python3 EL.py forest
