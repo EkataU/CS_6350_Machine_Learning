@@ -23,7 +23,8 @@ python3 LR.py sgd
 included in PDF
 
 ## Analytical method
-Uses following equation to solve optimal weight
+Uses following equation to solve optimal weight:
+
 <img src="https://github.com/EkataU/CS_6350_Machine_Learning/blob/main/Linear%20Regression/optimal.png" height="75">  
 ### How To Run
 ```
