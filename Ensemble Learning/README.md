@@ -9,7 +9,7 @@ This is the Least Mean Squares algorithm. It is optimized by Stochastic Gradient
 ```
 python3 EL.py ada
 ```
-###Results
+### Results
 included in PDF
 ## Bagging Algorithm 
 
@@ -17,7 +17,7 @@ included in PDF
 ```
 python3 EL.py bag
 ```
-###Results
+### Results
 included in PDF
 
 ## Random Forest
