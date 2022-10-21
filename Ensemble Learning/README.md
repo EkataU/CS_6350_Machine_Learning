@@ -1,5 +1,5 @@
 # Ensemble Learning
-This is the Least Mean Squares algorithm. It is optimized by Stochastic Gradient Descent and Batch Gradient Descent.
+This is exploring ada boost bagging and random forest algorithm.
 
  
 
