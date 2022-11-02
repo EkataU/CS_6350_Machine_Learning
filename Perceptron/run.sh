@@ -1,2 +1,8 @@
-echo perceptron algo
-python3 Perceptron.py
+echo standard Perceptron Algorithm
+python3 Perceptron.py standard
+
+echo Voted Perceptron Algorithm
+python3 Perceptron.py voted
+
+echo Average Perceptron Algorithm
+python3 Perceptron.py avg
