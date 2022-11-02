@@ -5,4 +5,4 @@ echo Voted Perceptron Algorithm
 python3 Perceptron.py voted
 
 echo Average Perceptron Algorithm
-python3 Perceptron.py avg
+python3 Perceptron.py average
