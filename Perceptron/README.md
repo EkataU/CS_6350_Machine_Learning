@@ -15,3 +15,12 @@ We use 4 attributions (the first 4 columns)
 4. entropy of image (continuous) 
 
 The label is the last column: genuine or forged
+
+
+# Perceptron
+This is the standard, voted, and averaged Perceptron algorithm for binary classification.
+### Update Label
+The label is converted (0,1) to (-1,1)
+## Standard Perceptron
+## Voted Perceptron
+## Average Perceptron
