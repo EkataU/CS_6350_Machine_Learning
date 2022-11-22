@@ -35,22 +35,27 @@ def run_KP():
 
 class KernelPerceptron():
     def __init__(self, kernel, gamma, T=1):
+        #intialize parameters
         self.kernel = kernel
         self.T = T
         self.gamma = gamma
         self.alpha = 5
         
     def predict(self, X):
+        # Computes prediction
         X = np.atleast_2d(X)
         return np.sign(self.dual_objective(X))
 
     def linear(self, xi, xj):
+        # Computes linear kernel
         return np.dot(xi, xj)
 
     def gaussian(self, X, z, gamma):
+        # Computes gaussian kernel
         return np.exp(-(np.linalg.norm(X-z, ord=2)**2) / gamma)
     
     def dual_objective(self, X):
+        # Computes objective function
         pred_y = np.zeros(len(X))
         for i in range(len(X)):
             s = 0
@@ -60,6 +65,7 @@ class KernelPerceptron():
         return pred_y    
     
     def fit(self, X, y):
+        # Compute convergence: from svm function
         threshold = 1e-10
         self.alpha = np.zeros(X.shape[0], dtype=np.float64)
 
